@@ -1,9 +1,9 @@
 sudo apt update
 sudo apt install ibus ibus-m17n dconf-editor wget fonts-noto-core -y
-echo "export GTK_IM_MODULE=ibus" >> /$HOME/.bashrc
-echo "export XMODIFIERS=@im=ibus" >> /$HOME/.bashrc
-echo "export QT_IM_MODULE=ibus" >> /$HOME/.bashrc
-echo "ibus-daemon -drx" >> /$HOME/.bashrc
+echo "export GTK_IM_MODULE=ibus" >> $HOME/.profile
+echo "export XMODIFIERS=@im=ibus" >> $HOME/.profile
+echo "export QT_IM_MODULE=ibus" >> $HOME/.profile
+echo "ibus-daemon -drxR" >> $HOME/.profile
 export GTK_IM_MODULE=ibus
 export XMODIFIERS=@im=ibus
 export QT_IM_MODULE=ibus
