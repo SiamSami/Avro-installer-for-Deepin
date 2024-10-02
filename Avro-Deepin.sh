@@ -11,6 +11,7 @@ git clone git://github.com/sarim/ibus-avro.git
 cd ibus-avro
 aclocal && autoconf && automake --add-missing
 ./configure --prefix=/usr
+make
 sudo make install
 dconf write /desktop/ibus/general/enable-by-default true
 dconf write /desktop/ibus/general/use-system-keyboard-layout true
