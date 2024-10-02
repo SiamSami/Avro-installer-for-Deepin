@@ -1,5 +1,2 @@
 # Update
 Ibus no longer works on deepin. For typing in Bengali on deepin, you may take a look at https://github.com/SiamSami/openbangla-deepin
-
-# Avro-installer-for-Deepin
-It's an installer to install avro in Deepin
